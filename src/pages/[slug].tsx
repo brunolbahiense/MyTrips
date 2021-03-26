@@ -1,8 +1,8 @@
 import client from 'graphql/client'
-import { GetPageBySlugQuery, GetPagesQuery } from 'graphql/generated/graphql'
 import { GET_PAGES, GET_PAGE_BY_SLUG } from 'graphql/queries'
 import { GetStaticProps } from 'next'
 import { useRouter } from 'next/dist/client/router'
+import { GetPageBySlugQuery, GetPagesQuery } from 'graphql/generated/graphql'
 import PageTemplate, { PageTemplateProps } from 'templates/Pages'
 
 export default function Page({ heading, body }: PageTemplateProps) {
