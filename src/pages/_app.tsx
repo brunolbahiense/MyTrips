@@ -12,8 +12,8 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/img/placeholder.svg" />
-        <link rel="apple-touch-icon" href="/img/placeholder.svg" />
+        <link rel="shortcut icon" href="/img/placeholder.png" />
+        <link rel="apple-touch-icon" href="/img/placeholder.png" />
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="stylesheet"
@@ -21,13 +21,13 @@ function App({ Component, pageProps }: AppProps) {
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossOrigin=""
         />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="/img/placeholder.png" />
         <meta name="theme-color" content="#06092B" />
       </Head>
       <DefaultSeo {...SEO} />
       <GlobalStyles />
       <NextNprogress
-        color="#f231a5"
+        color="#d4023e"
         startPosition={0.3}
         stopDelayMs={200}
         height={3}
