@@ -21,7 +21,12 @@ function App({ Component, pageProps }: AppProps) {
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossOrigin=""
         />
+        <meta property="og:title" content="Bluis Trips" />
+        <meta property="og:url" content="https://bluis-trips.vercel.app/" />
+        <meta property="og:description" content="Um mapa de todos os locais onde fui">
         <meta property="og:image" content="/img/placeholder.png" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
         <meta name="theme-color" content="#06092B" />
       </Head>
       <DefaultSeo {...SEO} />
