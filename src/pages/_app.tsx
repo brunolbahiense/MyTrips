@@ -13,6 +13,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="shortcut icon" href="/img/placeholder.svg" />
+        <link rel="icon/logo" href="/img/placeholder.svg" />
         <link rel="apple-touch-icon" href="/img/placeholder.svg" />
         <link rel="manifest" href="/manifest.json" />
         <link
