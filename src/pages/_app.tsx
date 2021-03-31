@@ -23,7 +23,10 @@ function App({ Component, pageProps }: AppProps) {
         />
         <meta property="og:title" content="Bluis Trips" />
         <meta property="og:url" content="https://bluis-trips.vercel.app/" />
-        <meta property="og:description" content="Um mapa de todos os locais onde fui">
+        <meta
+          property="og:description"
+          content="Um mapa de todos os locais onde fui"
+        />
         <meta property="og:image" content="/img/placeholder.png" />
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
