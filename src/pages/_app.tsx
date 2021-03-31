@@ -13,7 +13,6 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="shortcut icon" href="/img/placeholder.svg" />
-        <meta property="og:image:type" content="/img/placeholder.svg" />
         <link rel="apple-touch-icon" href="/img/placeholder.svg" />
         <link rel="manifest" href="/manifest.json" />
         <link
@@ -22,6 +21,7 @@ function App({ Component, pageProps }: AppProps) {
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossOrigin=""
         />
+        <meta property="og:image" content="" />
         <meta name="theme-color" content="#06092B" />
       </Head>
       <DefaultSeo {...SEO} />
